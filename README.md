@@ -34,17 +34,6 @@ Snowflake → Kafka → Spark Streaming → Anomaly Detection → Real-Time Aler
 | **Machine Learning** | scikit-learn, Snowpark |
 | **Visualization** | Microsoft Power BI |
 
-## 📁 Project Structure
-airline-analytics-platform/
-├── data_ingestion/ # Kaggle to S3 pipeline
-├── snowflake_warehouse/ # Snowflake loading
-├── dbt_transform/ # Data transformation models
-├── ml_layer/ # Machine learning models
-├── streaming/ # Real-time Kafka-Spark pipeline
-├── airflow_dags/ # Orchestration workflows
-└── dashboards/ # Visualization assets
-
-
 ## 🛠️ Setup & Installation
 
 ### Prerequisites
